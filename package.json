@@ -1,0 +1,31 @@
+{
+  "name": "learn-users",
+  "version": "0.0.1",
+  "description": "learning how to manage users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "body-parser" : "*",
+    "express-session" : "*",
+    "connect-mongo" : "*",
+    "bcrypt-nodejs" : "*"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
